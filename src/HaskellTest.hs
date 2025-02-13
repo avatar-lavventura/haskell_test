@@ -9,3 +9,4 @@ main :: IO ()
 main = do
   let fibs = map fib [0..9]
   print fibs
+  -- print (fibs !! 0)
